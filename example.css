@@ -1,0 +1,41 @@
+H0{
+  color:red;
+  font-size:300%;
+}
+H1{color:red;}
+H2{font-size: 150%}
+p#an_id { color : black; border:groove; }
+p#an_id2 { color : green; border:none; }
+p.a_class { font-size: 80%; }
+p.a {
+ vertical-align: text-bottom;
+}
+div.gazo-box {
+    float: left;
+    background-color:  #ccc;      /* 背景色指定 */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+h2 {
+clear: both;
+}
+
+
+/* サイト全体をwrapperの塊として中央に配置する */
+body {
+    text-align: center;
+}
+div#wrapper {
+    width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    border: 0px solid #FF0000;
+}
+
+.button {
+  width : 100px;
+  height : 40px;
+  border: groove;
+  background-color:#99ffff;
+  position: relative; left: 400px; top: 0px;
+}
