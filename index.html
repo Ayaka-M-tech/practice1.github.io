@@ -39,7 +39,8 @@ titleはカーソル合わせると表示される
 </div>
 
 <h2><br /></h2>
-<form name="frm0">
+
+<form name="contact" method="POST" data-netlify="true" action="./Thank_you.html">
     サンプル白1：<br />
     　　S<input type="number" id="white1S" size="10" style="width:50px;" value=0>着　　
     M<input type="number" id="white1M" size="10" style="width:50px;" value=0>着　　
@@ -62,62 +63,23 @@ titleはカーソル合わせると表示される
     <H2>  合計金額　:　
     <output for="white1Value white2Value white3Value" id="gokei">_________</output>
     円</H2>
-</form>
+
 
 <br />
-	
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-	
-<br /><br /><br /><br /><br /><br />
 
-
-<form method="post" action="https://www.yahoo.co.jp/">
   連絡先を教えて下さい。
-  <p>お名前：<input type="text" name="namae" value="太郎" size="20" /></p>
-  <p>メールアドレス：<input type="email" name="mail" size="30" pattern=".+@.+\..+" placeholder="info@example.com" title="メールアドレスは、aaa@example.com のような形式で記入してください。" required> <strong>必須</strong></p>
-
-  <p><input type="submit" value="送信する"></p>
-
+  <p>
+    <label>お名前： <input type="text" name="name" required /> <strong>必須</strong></label>
+  </p>
+  <p>
+    <label>メールアドレス： <input type="email" name="email" placeholder="info@example.com" required /> <strong>必須</strong></label>
+  </p>
+  <p>
+    <button type="submit">送信する</button>
+  </p>
 </form>
 
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-
-<p id="an_id">
-	掛け算<br />
- input number
-</p>
-
-<form name="frm1">
-	<input type="text" name="firstValue" size="10" value=0>
-	×
-	<input type="text" name="secondValue" size="10" value=0>
-	=
-	<input type="text" name="result" size="10" value=0>
-	<br>
-	<INPUT type="button" name="buttoncalc" onClick="Calculate()" value="計算結果">
-</form>
+<br /><br /><br /><br /><br /><br />
 
 </div>
 
@@ -126,10 +88,6 @@ titleはカーソル合わせると表示される
 <!--bodyの最後がよい-->
 </body>
 
-練習用URL
-<a href="index.html">XXX123</a>
-
-
-
 
 </html>
+
