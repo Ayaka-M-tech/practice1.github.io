@@ -42,8 +42,8 @@ titleはカーソル合わせると表示される
 
 <form name="contact" method="POST" data-netlify="true" action="./Thank_you.html">
     サンプル白1：<br />
-    　　S<input type="number" id="white1S" size="10" style="width:50px;" value=0>着　　
-    M<input type="number" id="white1M" size="10" style="width:50px;" value=0>着　　
+    　　S<input type="number" name="w1s" id="white1S" size="10" style="width:50px;" value=0>着　　
+    M<input type="number" name="w1m" id="white1M" size="10" style="width:50px;" value=0>着　　
     L<input type="number" id="white1L" size="10" style="width:50px;" value=0>着　　
     LL<input type="number" id="white1LL" size="10" style="width:50px;" value=0>着<br /><br />
     サンプル白2：<br />
@@ -61,7 +61,7 @@ titleはカーソル合わせると表示される
 
     <input type="button" onclick="Culculate2()" class="button" value="　決定　" style="font-size:20px"><br /><br />
     <H2>  合計金額　:　
-    <output for="white1Value white2Value white3Value" id="gokei">_________</output>
+    <output for="white1Value white2Value white3Value" name="gokeigaku" id="gokei">_________</output>
     円</H2>
 
 
